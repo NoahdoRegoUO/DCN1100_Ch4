@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="your own CSS"    type="text/css" href="../css/teibp.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "teibp.css" -->
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- put title here --></title>
+        <author>
+         
+        </author>
+      </titleStmt>
+      <publicationStmt>
+      <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <!-- front matter, if any, goes in <div>s, here -->
+    </front>
+    <body>
+  
+     <div>
+       <lg>
+         <l>There was an Old Man with a beard,</l>
+         <l>Who said, "It is just as I feared!—</l>
+         <l>Two Owls and a Hen, four Larks and a Wren,</l>
+         <l>Have all built their nests in my beard.</l> 
+       </lg>
+      
+     
+     </div>
+    </body>
+    
+  </text>
+</TEI>

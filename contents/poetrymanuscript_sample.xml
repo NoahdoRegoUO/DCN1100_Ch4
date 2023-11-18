@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- put title here --></title>
+        <author>
+          <persName><!-- author's name here --></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+  <body>
+    <p>
+      Well, I just got into town about an hour ago
+      Took a look around, see which way the wind blow
+      Where the little girls in their Hollywood bungalows
+      Are you a lucky little lady in the City of Light
+      Or just another lost angel?
+      City of Night
+      L.A. woman
+      L.A. woman, Sunday afternoon
+      Drive through your suburbs
+      Into your blues
+      Into your blues, yeah
+      Into your blue, blue, blues
+      Into your blues
+    </p>
+  </body>
+  </text>
+</TEI>

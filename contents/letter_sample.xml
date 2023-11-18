@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- put title here --></title>
+        <author>
+          <persName><!-- author's name here --></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+   
+    <body>
+<div n="1">
+  <p>
+    Roetzel and Andress
+    Counsellors at Law
+    20th Floor
+    One Cascade Plaza
+    Akron, Ohio 44308
+    
+    November 18, 1974
+    
+    The Cleveland Browns
+    Cleveland Stadium
+    Cleveland, OH
+    
+    Gentlemen:
+    
+    I am one of your season ticket holders who attends or tries to attend every game. It appears that one of the pastimes of several fans has become the sailing of paper airplanes generally made out of the game program. As you know, there is the risk of serious eye injury and perhaps an ear injury as a result of such airplanes. I am sure that this has been called to your attention and that several of your ushers and policemen witnessed the same.
+    
+    Please be advised that since you are in a position to control or terminate such action on the part of fans, I will hold you responsible for any injury sustained by any person in my party attending one of your sporting events. It is hoped that this disrespectful and possibly dangerous activity will be terminated.
+    
+    Very truly yours,
+    
+    ROETZEL &amp; ANDRESS
+    
+    By (Signed)
+    
+    Dale O. Cox
+    
+    DOC:pey
+  </p>
+</div>
+<div n="2">
+  <p>
+    CLEVELAND STADIUM, CORP.
+    
+    Dale O. Cox, Esquire
+    Roetzel and Andress
+    20th Floor
+    One Cascade Plaza
+    Akron, Ohio 44308
+    
+    Dear Mr. Cox:
+    
+    Attached is a letter that we received on November 19, 1974. I feel that you should be aware that some asshole is signing your name to stupid letters.
+    
+    Very truly yours,
+    
+    CLEVELAND STADIUM CORP.
+    
+    James N. Bailey,
+    General Counsel
+    
+    JNB: bjn
+    
+    cc: Arthur B. Modell
+  </p>
+</div>
+    </body>
+
+  </text>
+</TEI>

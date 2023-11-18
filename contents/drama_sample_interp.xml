@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- put title here --></title>
+        <author>
+          <persName><!-- author's name here --></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <!-- front matter, if any, goes in <div>s, here -->
+    </front>
+    <body>
+      <!-- main document goes here, possibly divided into <div>s -->
+      <sp>
+        <speaker>Jack.</speaker>
+        <stage>[Slowly and hesitatingly.]</stage>
+        <p>Gwendolen--Cecily--it is very painful for me to be forced to speak the truth. It is the
+          first time in my life that I have ever been reduced to such a painful position, and I am
+          really quite inexperienced in doing anything of the kind. However, I will tell you quite
+          frankly that I have no brother Ernest. I have no brother at all. I never had a brother in
+          my life, and I certainly have not the smallest intention of ever having one in the
+          future.</p>
+      </sp>
+
+      <sp>
+        <speaker>Cecily.</speaker>
+        <stage> [Surprised.]</stage>
+        <p> No brother at all?</p>
+      </sp>
+
+      <sp ana="#cheerful">
+        <speaker>Jack.</speaker>
+        <stage> [Cheerily.]</stage>
+        <p> None!</p>
+      </sp>
+
+      <sp>
+        <speaker>Gwendolen.</speaker>
+        <stage> [Severely.]</stage>
+        <p> Had you never a brother of any kind?</p>
+      </sp>
+
+      <sp>
+        <speaker>Jack.</speaker>
+        <stage> [Pleasantly.]</stage>
+        <p> Never. Not even of any kind.</p>
+      </sp>
+
+      <sp>
+        <speaker>Gwendolen.</speaker>
+        <p>I am afraid it is quite clear, Cecily, that neither of us is engaged to be married to any
+          one.</p>
+      </sp>
+
+      <sp>
+        <speaker>Cecily.</speaker>
+        <p>It is not a very pleasant position for a young girl suddenly to find herself in. Is
+          it?</p>
+      </sp>
+
+      <sp>
+        <speaker>Gwendolen.</speaker>
+        <p>Let us go into the house. They will hardly venture to come after us there. We will <seg ana="#vengeful">make sure that they get their comeuppance -- swift justice is the only way</seg>, wouldn't you say?</p>
+      </sp>
+
+
+    </body>
+    <back>
+      <interpGrp resp="#ccrompton" type="tone">
+        <interp xml:id="wistful">to be wistful the character must verbally express longing and,
+          thought stage direction or verbal expression</interp>
+        <interp xml:id="vengeful">and here is how I’ve defined vengefulness, revengefulness</interp>
+        <interp xml:id="cheerful">and here is how I’ve defined cheerfulness, joviality, light heartedness</interp>
+        <interp xml:id="stern">and here is how I’ve defined sternness and severity</interp>
+      </interpGrp>
+    </back>
+
+  </text>
+</TEI>
