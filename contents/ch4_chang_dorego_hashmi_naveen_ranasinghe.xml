@@ -11,10 +11,10 @@
           <persName>Arthur Conan Doyle</persName>
         </author>
         <editor>
-          <persName>Noah do Régo</persName>
-          <persName>Kevin Naveem</persName>
-          <persName>Edward Chang</persName>
-          <persName>Rohan Ranasinghe</persName>
+          <persName>Noah do Régo</persName>,
+          <persName>Kevin Naveem</persName>,
+          <persName>Edward Chang</persName>,
+          <persName>Rohan Ranasinghe</persName>,
           <persName>Zarish Hashmi</persName>
         </editor>
       </titleStmt>
@@ -22,11 +22,28 @@
         <ab>https://creativecommons.org/licenses/by-sa/4.0/</ab>  
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <!-- for most of our edition's chapters text is born digital - you made it!-->
-        </bibl>
-        <bibl> <!--If you used the Oxford English Dictionary or an other source to make your footnotes put the citations in additional <biblStruct>  or <bibl> elements like this one-->
-        </bibl>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>
+                <surname>Conan Doyle</surname>
+                <forename>Arthur</forename>
+              </persName>
+            </author>
+            <editor>
+              <persName>
+                <surname>Crompton</surname>
+                <forename>Constance</forename>
+              </persName>
+            </editor>
+            <title>The Hound of the Baskervilles: Annotated</title>
+            <imprint>
+              <publisher>The University of Ottawa</publisher>
+              <pubPlace><placeName>Ottawa</placeName></pubPlace>
+              <date when="2023-12-01"/>
+            </imprint>
+          </monogr>
+        </biblStruct>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -112,9 +129,9 @@
       paper folded into four. This he opened and spread flat upon the
       table. Across the middle of it a single sentence had been formed
       by the expedient of pasting printed words upon it. It ran:
-
-        As you value your life or your reason keep away from the moor.
-
+      <lb/><lb/>
+      As you value your life or your reason keep away from the <emph style="font-style: italic" corresp="#moor">moor</emph>.
+      <lb/><lb/>
       The word “moor” only was printed in ink.
       </p>
 
@@ -145,7 +162,7 @@
       Henry. I promise you that,” said Sherlock Holmes. “We will
       confine ourselves for the present with your permission to this
       very interesting document, which must have been put together and
-      posted yesterday evening. Have you yesterday’s _Times_, Watson?”
+      posted yesterday evening. Have you yesterday’s <emph style="font-style: italic">Times</emph>, Watson?”
       </p>
 
       <p>
@@ -248,13 +265,13 @@
       <p>
         “But this is my special hobby, and the differences are equally
       obvious. There is as much difference to my eyes between the
-      leaded bourgeois type of a _Times_ article and the slovenly print
+      leaded bourgeois type of a <emph style="font-style: italic">Times</emph> article and the slovenly print
       of an evening half-penny paper as there could be between your
       negro and your Esquimau. The detection of types is one of the
       most elementary branches of knowledge to the special expert in
       crime, though I confess that once when I was very young I
-      confused the _Leeds Mercury_ with the _Western Morning News_. But
-      a _Times_ leader is entirely distinctive, and these words could
+      confused the <emph>Leeds Mercury</emph> with the <emph>Western Morning News</emph>. But
+      a <emph style="font-style: italic">Times</emph> leader is entirely distinctive, and these words could
       have been taken from nothing else. As it was done yesterday the
       strong probability was that we should find the words in
       yesterday’s issue.”
@@ -299,7 +316,7 @@
       <p>
         “There are one or two indications, and yet the utmost pains have
       been taken to remove all clues. The address, you observe is
-      printed in rough characters. But the _Times_ is a paper which is
+      printed in rough characters. But the <emph style="font-style: italic">Times</emph> is a paper which is
       seldom found in any hands but those of the highly educated. We
       may take it, therefore, that the letter was composed by an
       educated man who wished to pose as an uneducated one, and his
@@ -346,7 +363,7 @@
       you know the hotel ink and the hotel pen, where it is rare to get
       anything else. Yes, I have very little hesitation in saying that
       could we examine the waste-paper baskets of the hotels around
-      Charing Cross until we found the remains of the mutilated _Times_
+      Charing Cross until we found the remains of the mutilated <emph style="font-style: italic">Times</emph>
       leader we could lay our hands straight upon the person who sent
       this singular message. Halloa! Halloa! What’s this?”
       </p>
@@ -818,8 +835,8 @@
 
       <p>
         “But what you are really looking for is the centre page of the
-      _Times_ with some holes cut in it with scissors. Here is a copy
-      of the _Times_. It is this page. You could easily recognize it,
+      <emph style="font-style: italic">Times</emph> with some holes cut in it with scissors. Here is a copy
+      of the <emph style="font-style: italic">Times</emph>. It is this page. You could easily recognize it,
       could you not?”
       </p>
 
@@ -833,7 +850,7 @@
       shillings. You will then learn in possibly twenty cases out of
       the twenty-three that the waste of the day before has been burned
       or removed. In the three other cases you will be shown a heap of
-      paper and you will look for this page of the _Times_ among it.
+      paper and you will look for this page of the <emph style="font-style: italic">Times</emph> among it.
       The odds are enormously against your finding it. There are ten
       shillings over in case of emergencies. Let me have a report by
       wire at Baker Street before evening. And now, Watson, it only
@@ -848,7 +865,33 @@
     
     <back>
       <div type="notes">
-        <note xml:id="pugnacious" source="https://www.oed.com/dictionary/pugnacious_adj?tab=meaning_and_use#27809803">Pugnacious: Eager or quick to quarrel or fight; given to fighting or arguing; belligerent, contentious.</note>
+        <head>Words &amp; Terms</head>
+        <note xml:id="moor" source="https://www.oed.com/dictionary/moor_n1?tab=meaning_and_use#36001990">Moor: <lb/> Old English -- Originally: a marsh; marshland, fen (obsolete). <lb/> Now -- any of  the flat, low-lying areas of Somerset, England, which were formerly marshland. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="pugnacious" source="https://www.oed.com/dictionary/pugnacious_adj?tab=meaning_and_use#27809803">Pugnacious: <lb/> Eager or quick to quarrel or fight; given to fighting or arguing; belligerent, contentious. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="cajoled" source="https://www.oed.com/dictionary/cajole_v?tab=meaning_and_use#10663794">Cajole(d): <lb/> To prevail upon or get one's way with (a person) by delusive flattery, specious promises, or any false means of persuasion. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="foolscap" source="https://www.oed.com/dictionary/foolscap_n2?tab=meaning_and_use#1310608350">Foolscap: <lb/> A large size of printing or writing paper, measuring about 16½ inches by 13½ inches (approx. 42 cm by 34 cm), formerly typically used for writing documents, literary manuscripts, records of meetings, etc. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="hansom" source="https://www.oed.com/dictionary/hansom_v?tab=meaning_and_use#992030604">Hansom: <lb/> 1890-1894: to take a cab/coach. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="flurried" source="https://www.oed.com/dictionary/flurry_v?tab=meaning_and_use#3875850">Flurried: <lb/>  To bewilder or confuse as by haste or noise; to agitate, 'put out'. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="shillings" source="https://www.oed.com/dictionary/shilling_n?tab=meaning_and_use#22900237">Shillings: <lb/> A former English money of account, from the Norman Conquest of the value of 12d. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="maxillary" source="https://www.oed.com/dictionary/maxillary_adj?tab=meaning_and_use#37890727">Maxillary: <lb/> Of, relating to, or forming part of the jaw or jawbone, esp. the upper jaw of a vertebrate. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="dime_novel" source="https://www.oed.com/dictionary/dime-novel_n?tab=meaning_and_use#991216852000">Dime Novel: <lb/> A cheap sensational novel. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="halloa" source="https://www.oed.com/dictionary/hallo_v?tab=frequency#2235583">Halloa: <lb/> To shout or exclaim ‘hallo!’. (Oxford English Dictionary, 2023)</note>
+        <note xml:id="languid" source="https://www.oed.com/dictionary/languid_adj?tab=meaning_and_use#39696807">Languid: <lb/> Of a person, animal, bodily function, etc.: weak, faint, or inert, esp. from illness or fatigue; lacking vitality or vigour, listless. (Oxford English Dictionary, 2023)</note>
+        
+        <head>Citations</head>
+        
+        <ab>
+          <biblStruct>
+            <monogr>
+              <title><emph style="font-style: italic">Oxford English Dictionary,</emph></title>
+              <imprint>
+                <pubPlace>Oxford,</pubPlace>
+                <publisher>Oxford Univresity Press</publisher>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </ab>
+        
       </div>
     </back>
   </text>
