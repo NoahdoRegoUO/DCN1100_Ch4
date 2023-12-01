@@ -44,6 +44,28 @@
             </imprint>
           </monogr>
         </biblStruct>
+        <bibl>
+          <respStmt>
+            <resp>Encoding and research review</resp>
+            <persName>Noah do Régo</persName>
+          </respStmt>
+          <respStmt>
+            <resp>Encoding and research review</resp>
+            <persName>Kevin Naveem</persName>
+          </respStmt>
+          <respStmt>
+            <resp>Research</resp>
+            <persName>Edward Chang</persName>
+          </respStmt>
+          <respStmt>
+            <resp>Research</resp>
+            <persName>Rohan Ranasinghe</persName>
+          </respStmt>
+          <respStmt>
+            <resp>Research</resp>
+            <persName>Zarish Hashmi</persName>
+          </respStmt>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -559,9 +581,9 @@
       </p>
 
       <p>
-        “Whichever it is, my answer is fixed. There is no devil in hell,
+        “Whichever it is, my answer is fixed. <seg corresp="#no_devil">There is no devil in hell,
       Mr. Holmes, and there is no man upon earth who can prevent me
-      from going to the home of my own people, and you may take that to
+      from going to the home of my own people</seg>, and you may take that to
       be my final answer.” His dark brows knitted and his face flushed
       to a dusky red as he spoke. It was evident that the fiery temper
       of the Baskervilles was not extinct in this their last
@@ -745,7 +767,7 @@
       <p>
         “There is no object in our following them,” said Holmes. “The
       shadow has departed and will not return. We must see what further
-      cards we have in our hands and play them with decision. Could you
+      <seg corresp="#cards_in_hand">cards we have in our hands and play them with decision</seg>. Could you
       swear to that man’s face within the cab?”
       </p>
 
@@ -761,7 +783,7 @@
       </p>
 
       <p>
-        He turned into one of the district messenger offices, where he
+        He turned into one of the <seg corresp="#messenger_offices">district messenger offices</seg>, where he
       was warmly greeted by the manager.
       </p>
 
@@ -881,8 +903,14 @@
         <head>Locations</head>
         <note xml:id="bond_street" source="https://broadviewpress.com/product/the-hound-of-the-baskervilles/#tab-description"> Bond Street Picture Galleria: <lb/>reference to The Grosvenor Gallery , one of the most famous galleries in the area. <lb/> Under the management of Sir Coutts Lindsay (1824–1913), it had become a center for modern painting, late PreRaphaelitism, and the work of the Aesthetic Movement(The Hounds of Baskerville, 2006)</note>
         <note xml:id="oxford_street" source = "https://www.oxfordstreet.co.uk/"> Oxford Street:   <lb/> Oxford Street is one of the main streets in London that is talked about in the novel when Holmes and Watson walk to catch up to Dr. Mortimer and Henry Baskerville. <lb/> It is now one of the busiest shopping streets in Europe hosting approximately 300 shops.(Oxford Street, 2023)</note>
-        <note xml:id="northumberland_hotel" source = "https://www.thesherlockholmes.com.au/"> Norhumberland Hotel: <lb/>there is a northumberland street and northumberland avenue in central London. <lb/>Hotel they stay at is said to be the modern day sherlock holmes inn (The Sherlock Holmes.com, 2023)</note>
+        <note xml:id="northumberland_hotel" source = "https://www.thesherlockholmes.com.au/"> Norhumberland Hotel: <lb/>There is a Northumberland Street and Northumberland Avenue in central London. <lb/>Hotel they stay at is said to be the modern day Sherlock Holmes inn (The Sherlock Holmes.com, 2023)</note>
         <note xml:id="the_strand" source="https://hidden-london.com/gazetteer/the-strand/"> The Strand: <lb/> Major London road, connecting Trafalgar Square with the City, historically significant road connecting Westminster and the City of London (Hidden London, 2023) </note>
+        
+        <head>Expressions and Speech Mannerisms</head>
+        <note xml:id="messenger_offices">"District messenger offices": <lb/> Before telephones, telegrams were the conventional way of delivering messages electronically, and they were handled at messenger offices.</note>
+        <note xml:id="cards_in_hand">"What further cards we have in our hands": <lb/> Refers to the current knowledge and clues that Holmes has on the mystery, and what decisions they can make with them</note>
+        <note xml:id="no_devil">"There is no devil in hell [...] to prevent me": <lb/> An expression (with Christian origins) that represents how far Henry Baskerville is willing to go to get to Baskerville Hall.</note>
+        
         <head>Citations</head>
         
         <ab>
